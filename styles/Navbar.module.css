@@ -1,0 +1,83 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 80px;
+  background-color: #0f0f0f;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 2px 11px 0px #00061a;
+  z-index: 99999;
+}
+
+.nav__login {
+  background-color: #232d3f;
+  height: 8px;
+  width: 100%;
+  position: absolute;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 24px;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo--img {
+  margin-right: 1rem;
+  width: 3.5rem;
+  filter: invert(1);
+}
+
+.nav__logo--text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  margin: 12px;
+  transition: all 0.1s ease;
+}
+
+.nav__link:hover {
+  color: #8e98ac;
+}
+
+.nav__button {
+  margin-left: 10px;
+  padding: 8px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid white;
+  border-radius: 99px;
+  background: rgb(0, 0, 0, 0.65);
+  color: white;
+  transition: all 0.1s ease;
+}
+
+/* .nav__button:hover {
+  background: rgb(255, 255, 255);
+  border-color: #8e98ac;
+  color: #8e98ac;
+} */
+
+/* .nav__button--container {
+}
+
+.nav__link--home {
+  /*   Targeted home class for navbar / inquire if confused   */
+  /* margin-right: 24px; */
+/* } */ 

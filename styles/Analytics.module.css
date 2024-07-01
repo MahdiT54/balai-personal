@@ -1,0 +1,45 @@
+.analytics {
+}
+
+.analytics__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analytics__h1 {
+  font-size: 36px;
+  margin-bottom: 64px;
+}
+
+.analytics__img--wrap {
+  width: calc(100% / 3);
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+.analytics__img--wrap img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  object-position: center;
+  transition: top 2s;
+}
+
+.analytics__img--wrap:hover img {
+  top: -170%; /* Adjust this value based on the height of your image */
+}
+
+.dashboard__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

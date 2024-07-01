@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  background-color: #0a0a0a;
+}
+
+section {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button,
+input {
+  font-size: 100%;
+  line-height: inherit;
+  color: inherit;
+  /* margin: 0px; */
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  max-width: 1280px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+}
+
+
+.container {
+  padding: 96px 0;
+}
+
+.grey {
+  color: darkgrey;
+}
+
+.bai__button { /* this is the basic button layout for balanceai */
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 99px;
+  /* padding: 12px 24px; */
+}
+.bai__button--hover {
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.bai__button--hover:hover {
+  background-color: white;
+  color: black;
+}
+
+.bai__button--focus:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  /* scale: .975; */
+}
+
+.logo-invert { /* logo invert for bai */
+  filter: invert(1);
+}
+
+.align-end {
+  text-align: end;
+}

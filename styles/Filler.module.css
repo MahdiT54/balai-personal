@@ -1,0 +1,66 @@
+.filler {
+  background: white;
+  color: black;
+}
+
+.filler__row {
+}
+
+.filler__container {
+  /* display: flex; */
+}
+
+.filler__section1 {
+  margin-bottom: 24px;
+}
+
+.filler__section1,
+.filler__section2 {
+  display: flex;
+}
+
+.filler__text {
+  flex: 1.5;
+  padding-top: 80px;
+}
+.filler__heading {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.filler__subheading {
+  line-height: 1.25;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.filler__description {
+  font-size: 1rem; /* Smaller description */
+  margin-bottom: 1.5rem; /* Increase margin bottom */
+}
+
+.bai__button--filler {
+  padding: 1rem 2rem;
+  font-size: 18px;
+  color: black;
+  /* cursor: pointer; */
+  border: 2px solid black;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.bai__button--filler:hover {
+  background-color: black;
+  color: white;
+}
+
+.filler__imageContainer {
+  flex: 1;
+  width: 350px;
+}
+
+.filler__image {
+}

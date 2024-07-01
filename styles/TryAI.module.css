@@ -1,0 +1,40 @@
+.TryAI__section {
+
+}
+
+.TryAI__container {
+display: flex;
+}
+
+.TryAI__text--wrapper {
+    width: 50%;
+}
+
+.TryAI__h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.TryAI__h3 {
+    font-size: 20px;
+    margin-bottom: 28px;
+    font-weight: 400;
+}
+
+.TryAI__p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 2.5rem 0;
+}
+
+.bai__button--TryAI {
+    padding: 1rem 2rem;
+    font-size: 18px;
+}
+
+.figure__wrapper {
+    width: 50%;
+    background: grey;
+}
